@@ -102,4 +102,13 @@ We make sure that the "filter" symbol (the symbol of a graph) appears "on". We c
 
 Click on the slicer to make sure both elements are being correclty controlled by the slicer. 
 
+### Adding a Bookmark to the page and the dashboard
+
+### Adding a constant line to the Y Axis of the Graph
+
+After some general formatting, we will obtain a very simple dashboard to help us visualize our data.
+
+![errors_accepted](https://github.com/MaiteLizarraga/edl_univariate_food/blob/main/img/basic_dashboard.png)
+###### basic_dashboard.png
+
 ## Modelling --> Table -->      
