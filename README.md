@@ -84,10 +84,22 @@ We create the Date table with the following DAX code:
 ![data_calendar_creation.png](https://github.com/MaiteLizarraga/edl_univariate_food/blob/main/img/data_calendar_creation.png)
 ###### data_calendar_creation.png
 
-## Create the first DAX functions and the first visualizations
+## Create the first visualizations
 
-### Slicer
+### Slicer, Table and Line-Graph
 
+Firstly, we add a new slicer on the Beer page by clicking on the "table-with-funnel" symbol in the visualizations tab on the right-side menu. We add the Country field as that's what we want to control our visualizations with. By going to the format section of this slicer, then selecting the "multiple selection" option under "visual object", we will be able to allow multiple selection. Remember to hit ctrl while selecting multiple countries.
 
+Secondly, we add a table by clicking in the "table" symbol in the same previous visualizations tab. We place the "Year-Month" timeframe we have created on our Date table in the first column, the Country name from our Beer table on the second and the Beer[Values] on the third. This table is more clear if values are sorted by "Year-Month", we can do that by clicking on the column name.
+
+Finally, we add a line-chart. We place the "Year" date-format from the Date-hierarchy on the X axis, the yearly mean of values from the Beer table in the Y axis and the country in the Legend. This last addition will allow us to show values from multiple countries selected with the slicer.
+
+We want the slicer to control the table and the graph, therefore, we will place ourselves in the table, and we will click in the Format tab on the upper menu, then on "edit interactions". 
+We make sure that the "filter" symbol (the symbol of a graph) appears "on". We check the same symbol by placing ourselves on the graph.
+
+![errors_accepted](https://github.com/MaiteLizarraga/edl_univariate_food/blob/main/img/slicer_filter.png)
+###### slicer_filter.png
+
+Click on the slicer to make sure both elements are being correclty controlled by the slicer. 
 
 ## Modelling --> Table -->      
