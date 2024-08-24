@@ -71,15 +71,23 @@ In this case I choose to keep them because they only affect data in the UK (post
 
 ![errors_accepted](https://github.com/MaiteLizarraga/edl_univariate_food/blob/main/img/errors_accepted.png)
 <!-- [errors_accepted](https://github.com/MaiteLizarraga/edl_univariate_food/blob/main/img/errors_accepted.png) -->
-######errors_accepted.png
+###### errors_accepted.png
 
-## Create the Date table and first DAX functions
+## Create the Date table
+
+### Date table
 
 We close Power Query and click on the "Vista de Informe" button in the left side of the Power BI frontpage. We create a new tab called "Beer" as we are going to create our first report there. However, before starting to insert graphs and other visualizations, we need to perform a mandatory step: creating a Date or Calendar table. This table is crucial in Power BI for several reasons, especially when working with time-based data. It is used in Time Intelligence Functions such as "TOTALYTD", "SAMEPERIODLASTYEAR" or "DATEADD" to perform complex time-based calculations, like year-over-year growth, moving averages, and cumulative totals. This table ensures as well that a continuous and complete date range (with no missing dates) is provided, it works as a Primary Key in relationships between tables and allows for personalisation as in the case of the fiscal year, etc.
 
 We create the Date table with the following DAX code:
 
-![data_calendar_creation.png](https://github.com/MaiteLizarraga/edl_univariate_food/blob/main/img/data_calendar_creation.png.png)
+![data_calendar_creation.png](https://github.com/MaiteLizarraga/edl_univariate_food/blob/main/img/data_calendar_creation.png)
 ###### data_calendar_creation.png
+
+## Create the first DAX functions and the first visualizations
+
+### Slicer
+
+
 
 ## Modelling --> Table -->      
