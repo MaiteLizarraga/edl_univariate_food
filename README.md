@@ -1,5 +1,7 @@
 # edl_univariate_food
 
+![powerbi_project_overview](https://github.com/MaiteLizarraga/edl_univariate_food/blob/main/img/basic_dashboard.png)
+
 ## 1. Dataset choice and download
 
 We have picked a harmonised index of consumer prices called "Food price monitoring tool dataset" from Eurostat, which we've customised directly in the Eurostat site to include only the information we need. The unit of measure is: Index, 2015=100 and the time frequency is monthly. The dataset was updated on the 19th of August 2024 for the last time, the day of extraction.
@@ -109,6 +111,4 @@ Click on the slicer to make sure both elements are being correclty controlled by
 After some general formatting, we will obtain a very simple dashboard to help us visualize our data.
 
 ![errors_accepted](https://github.com/MaiteLizarraga/edl_univariate_food/blob/main/img/basic_dashboard.png)
-###### basic_dashboard.png
-
-## Modelling --> Table -->      
+###### basic_dashboard.png    
