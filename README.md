@@ -1,4 +1,4 @@
-# edl_univariate_food
+# Food Price Inflation in the European Union Data Visualization with PowerBI
 
 ![powerbi_project_overview](https://github.com/MaiteLizarraga/edl_univariate_food/blob/main/img/basic_dashboard.png)
 
